@@ -23,7 +23,7 @@ public class UserController {
     @RequestMapping(value = "user")
     public List<User> selectUser() {
         
-        String username = "lx1";
+        String username = "lx";
         List<User> users = userService.selectUserByUsername(username);
         return users;
     }
